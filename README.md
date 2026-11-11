@@ -1,16 +1,22 @@
 ![4sh — a monochrome midnight banner](./assets/banner.jpg)
 
-## 소개 · About
+**☾ 4sh · aspiring developer.** I learn by building — small Python programs first, then web applications, dashboards, Discord bots and desktop tools. Most of what I know comes from practice projects, documentation, and rebuilding whatever broke the night before.
 
-I'm **4sh**, an aspiring developer and a future Computer Science student. I learn by building: writing small programs, breaking them, and rebuilding them cleaner than before. Most of what I know comes from practice projects, documentation, and a fair amount of trial and error.
+I'm a future Computer Science student, not a professional — just someone working steadily toward software that people actually find useful.
 
-No professional experience claimed — just steady work, a genuine interest in useful software, and a preference for finishing things properly.
+<div align="center"><sub>─── ☾ ───</sub></div>
 
-My direction is simple: build tools and applications that people actually find useful.
+### ☾ 4sh · Building
 
-## 지금 · Current Focus
+**Expense Tracker** · `local practice`  
+A small Python project for recording expenses and reviewing spending. Kept on my machine while I refine it — no public repository yet.
 
-These are the areas I'm learning in, not a list of achievements:
+**GuildHQ** · `planned`  
+A Discord server management platform: tickets, moderation, activity statistics, and a web dashboard. Currently a plan, not a product.
+
+I'd rather keep this page quiet than fill it with placeholder repositories. When either project is ready, it will be linked here.
+
+### ☾ 4sh · Learning
 
 - **Python and programming fundamentals** — syntax, data structures, and reasoning clearly about problems.
 - **Web applications and dashboards** — interfaces that make information easy to read at a glance.
@@ -19,30 +25,15 @@ These are the areas I'm learning in, not a list of achievements:
 - **Developer tools** — utilities that remove repetitive work.
 - **Software engineering** — structure, version control, and the habits that keep a project maintainable.
 
-## 도구 · Technologies
+<div align="center"><sub>─── ☾ ───</sub></div>
 
-<p align="center">
-  <img alt="Python" src="https://img.shields.io/badge/Python-151515?style=flat-square&logo=python&logoColor=D8D8D8">
-  <img alt="Git" src="https://img.shields.io/badge/Git-151515?style=flat-square&logo=git&logoColor=D8D8D8">
-  <img alt="GitHub" src="https://img.shields.io/badge/GitHub-151515?style=flat-square&logo=github&logoColor=D8D8D8">
-</p>
+### ☾ 4sh · Setup
 
-<p align="center"><sub>Python — actively learning · Git and GitHub — used for every project</sub></p>
+I work in **Python**, with **Git** and **GitHub** for every project. Learning happens in documentation, small experiments, and fixing what I broke the night before.
 
-Only tools I actually use.
+`Python` · `Git` · `GitHub` · `Markdown`
 
-## 배움 · Building & Exploring
-
-| Project | Status | What it is |
-| :--- | :--- | :--- |
-| **Expense Tracker** | `local practice` | A small Python project for recording expenses and reviewing spending. Kept local — not published, no repository yet. |
-| **GuildHQ** | `planned` | A Discord server management platform: tickets, moderation, activity statistics, and a web dashboard. A plan, not a product. |
-
-I'd rather keep this page quiet than fill it with placeholder repositories. When either project is ready to be public, it will be linked here.
-
-## 기록 · GitHub Activity
-
-The contribution calendar above this README is GitHub's own record of my real work. Nothing here is simulated, inflated, or backdated.
+### ☾ 4sh · After Hours
 
 <div align="center">
 
@@ -57,7 +48,7 @@ The animation visualises existing activity — it doesn't create any.</sub>
 
 </div>
 
-[Profile](https://github.com/its4sh) · [Repositories](https://github.com/its4sh?tab=repositories) · [Contribution calendar](https://github.com/its4sh?tab=overview) · [Workflow runs](https://github.com/its4sh/its4sh/actions)
+Nothing on this page is simulated, inflated, or backdated.
 
 <div align="center">
 <sub>밤에 만들고, 낮에 배운다 — build at night, learn by day.</sub>
