@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="230" viewBox="0 0 480 230" role="img" aria-labelledby="card-title card-desc">
+  <title id="card-title">Expense Tracker</title>
+  <desc id="card-desc">A local Python practice project for recording and reviewing expenses. No public repository yet.</desc>
+  <rect x="0.5" y="0.5" width="479" height="229" rx="16" fill="#080808" stroke="#282828"/>
+  <text x="36" y="44" font-family="Consolas, 'Courier New', monospace" font-size="9.5" letter-spacing="2.4" fill="#AFAFAF">LOCAL PRACTICE · PYTHON</text>
+  <text x="36" y="104" font-family="Georgia, 'Times New Roman', serif" font-size="36" fill="#F2F0EC">Expense Tracker</text>
+  <text x="36" y="138" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#D8D8D8">Recording expenses, reviewing spending.</text>
+  <text x="36" y="190" font-family="Consolas, 'Courier New', monospace" font-size="9" letter-spacing="1.6" fill="#AFAFAF">NO PUBLIC REPOSITORY YET</text>
+  <g>
+    <circle cx="404" cy="86" r="34" fill="none" stroke="#282828"/>
+    <path d="M416 56 a34 34 0 1 0 0 60 a27 27 0 1 1 0 -60 z" fill="#D8D8D8" fill-opacity="0.5"/>
+    <circle cx="356" cy="54" r="1.4" fill="#AFAFAF" fill-opacity="0.7"/>
+    <circle cx="450" cy="122" r="1.1" fill="#AFAFAF" fill-opacity="0.5"/>
+    <path d="M330 196 L360 166 L382 184 L408 152 L444 196" fill="none" stroke="#282828"/>
+    <path d="M346 196 L370 176 L390 190 L414 166 L456 196" fill="none" stroke="#151515"/>
+  </g>
+</svg>

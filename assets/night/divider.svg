@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="28" viewBox="0 0 1200 28" role="img" aria-label="Decorative divider">
+  <line x1="0" y1="14" x2="552" y2="14" stroke="#AFAFAF" stroke-opacity="0.25"/>
+  <line x1="648" y1="14" x2="1200" y2="14" stroke="#AFAFAF" stroke-opacity="0.25"/>
+  <path d="M558 14 l5 -5 5 5 -5 5 z" fill="#AFAFAF" fill-opacity="0.35"/>
+  <path d="M632 14 l5 -5 5 5 -5 5 z" fill="#AFAFAF" fill-opacity="0.35"/>
+  <path d="M605 3 a11 11 0 1 0 0 22 a22 22 0 0 1 0 -22 z" fill="#AFAFAF" fill-opacity="0.65"/>
+</svg>

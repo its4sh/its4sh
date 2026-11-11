@@ -4,17 +4,18 @@
 
 I'm a future Computer Science student, not a professional — just someone working steadily toward software that people actually find useful.
 
-<div align="center"><sub>─── ☾ ───</sub></div>
+<div align="center">
+  <img src="./assets/night/divider.svg" alt="" width="1200">
+</div>
 
 ### ☾ 4sh · Building
 
-**Expense Tracker** · `local practice`  
-A small Python project for recording expenses and reviewing spending. Kept on my machine while I refine it — no public repository yet.
+<p align="center">
+  <img src="./assets/night/cards/expense-tracker.svg" alt="Expense Tracker — a local Python practice project, not published" width="420">
+  <img src="./assets/night/cards/guildhq.svg" alt="GuildHQ — a planned Discord server management platform" width="420">
+</p>
 
-**GuildHQ** · `planned`  
-A Discord server management platform: tickets, moderation, activity statistics, and a web dashboard. Currently a plan, not a product.
-
-I'd rather keep this page quiet than fill it with placeholder repositories. When either project is ready, it will be linked here.
+<p align="center"><sub>No public repositories yet — these cards describe learning work, not shipped products.</sub></p>
 
 ### ☾ 4sh · Learning
 
@@ -25,7 +26,9 @@ I'd rather keep this page quiet than fill it with placeholder repositories. When
 - **Developer tools** — utilities that remove repetitive work.
 - **Software engineering** — structure, version control, and the habits that keep a project maintainable.
 
-<div align="center"><sub>─── ☾ ───</sub></div>
+<div align="center">
+  <img src="./assets/night/divider.svg" alt="" width="1200">
+</div>
 
 ### ☾ 4sh · Setup
 
@@ -51,5 +54,5 @@ The animation visualises existing activity — it doesn't create any.</sub>
 Nothing on this page is simulated, inflated, or backdated.
 
 <div align="center">
-<sub>밤에 만들고, 낮에 배운다 — build at night, learn by day.</sub>
+  <img src="./assets/night/footer.svg" alt="4sh — build at night, learn by day" width="1200">
 </div>
