@@ -1,23 +1,69 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="230" viewBox="0 0 480 230" role="img" aria-labelledby="card-title card-desc">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="640" height="220" viewBox="0 0 640 220" role="img" aria-labelledby="card-title card-desc">
   <title id="card-title">GuildHQ</title>
   <desc id="card-desc">A planned Discord server management platform with tickets, moderation, activity statistics and a web dashboard.</desc>
-  <rect x="0.5" y="0.5" width="479" height="229" rx="16" fill="#080808" stroke="#282828"/>
-  <text x="36" y="44" font-family="Consolas, 'Courier New', monospace" font-size="9.5" letter-spacing="2.4" fill="#AFAFAF">PLANNED · NOT BUILT</text>
-  <text x="36" y="104" font-family="Georgia, 'Times New Roman', serif" font-size="36" fill="#F2F0EC">GuildHQ</text>
-  <text x="36" y="138" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#D8D8D8">Tickets, moderation, activity — one place.</text>
-  <text x="36" y="190" font-family="Consolas, 'Courier New', monospace" font-size="9" letter-spacing="1.6" fill="#AFAFAF">TICKETS · MODERATION · DASHBOARD</text>
-  <g>
-    <rect x="352" y="52" width="92" height="80" rx="8" fill="#080808" stroke="#282828"/>
-    <line x1="352" y1="70" x2="444" y2="70" stroke="#282828"/>
-    <circle cx="362" cy="61" r="1.8" fill="#AFAFAF"/>
-    <circle cx="370" cy="61" r="1.8" fill="#282828"/>
-    <rect x="362" y="106" width="7" height="18" fill="#282828"/>
-    <rect x="374" y="96" width="7" height="28" fill="#D8D8D8" fill-opacity="0.45"/>
-    <rect x="386" y="88" width="7" height="36" fill="#282828"/>
-    <rect x="398" y="100" width="7" height="24" fill="#282828"/>
-    <line x1="358" y1="124" x2="438" y2="124" stroke="#151515"/>
-    <circle cx="424" cy="160" r="14" fill="none" stroke="#282828"/>
-    <path d="M429 151 a12 12 0 1 0 0 18 a9 9 0 1 1 0 -18 z" fill="#AFAFAF" fill-opacity="0.45"/>
-    <path d="M330 196 L355 170 L374 186 L396 158 L430 196" fill="none" stroke="#151515"/>
-  </g>
+  <defs>
+    <g id="blossom">
+      <g fill="#FFFFFF" stroke="#D8D8D8" stroke-opacity="0.7" stroke-width="0.6">
+        <ellipse cx="0" cy="-8.5" rx="4.6" ry="8"/>
+        <ellipse cx="0" cy="-8.5" rx="4.6" ry="8" transform="rotate(72)"/>
+        <ellipse cx="0" cy="-8.5" rx="4.6" ry="8" transform="rotate(144)"/>
+        <ellipse cx="0" cy="-8.5" rx="4.6" ry="8" transform="rotate(216)"/>
+        <ellipse cx="0" cy="-8.5" rx="4.6" ry="8" transform="rotate(288)"/>
+      </g>
+      <circle r="2" fill="#AFAFAF"/>
+      <g fill="#D8D8D8">
+        <circle cx="0" cy="-4.5" r="0.8"/>
+        <circle cx="4.3" cy="-1.4" r="0.8"/>
+        <circle cx="2.6" cy="3.6" r="0.8"/>
+        <circle cx="-2.6" cy="3.6" r="0.8"/>
+        <circle cx="-4.3" cy="-1.4" r="0.8"/>
+      </g>
+    </g>
+    <g id="sparkle">
+      <path d="M0 -4 L0.9 -0.9 L4 0 L0.9 0.9 L0 4 L-0.9 0.9 L-4 0 L-0.9 -0.9 Z" fill="#FFFFFF"/>
+    </g>
+    <ellipse id="petal" rx="3.2" ry="5.2" fill="#FFFFFF" opacity="0.85"/>
+  </defs>
+
+  <rect width="640" height="220" fill="#000000"/>
+  <rect x="8.5" y="8.5" width="623" height="203" rx="12" fill="#080808" stroke="#AFAFAF" stroke-opacity="0.42"/>
+
+  <circle cx="552" cy="96" r="52" fill="#D8D8D8" opacity="0.04"/>
+  <circle cx="552" cy="96" r="38" fill="#D8D8D8" opacity="0.06"/>
+  <circle cx="552" cy="96" r="27" fill="#D8D8D8"/>
+  <circle cx="543" cy="87" r="21" fill="#F2F0EC" opacity="0.35"/>
+  <circle cx="560" cy="103" r="5.5" fill="#AFAFAF" opacity="0.35"/>
+  <circle cx="547" cy="109" r="3.2" fill="#AFAFAF" opacity="0.3"/>
+  <circle cx="562" cy="88" r="2.4" fill="#AFAFAF" opacity="0.3"/>
+
+  <path d="M352 212 L412 162 L464 196 L518 144 L580 200 L631 166 L631 212 L352 212 Z" fill="#151515"/>
+  <path d="M300 212 L356 186 L404 206 L456 176 L524 212 Z" fill="#080808" stroke="#282828" stroke-width="1"/>
+  <line x1="360" y1="204" x2="631" y2="204" stroke="#AFAFAF" stroke-opacity="0.07" stroke-width="4"/>
+  <line x1="420" y1="208" x2="631" y2="208" stroke="#AFAFAF" stroke-opacity="0.05" stroke-width="3"/>
+
+  <path d="M631 40 C600 50 578 46 556 60 C532 74 512 72 488 92 C476 102 466 108 458 118" stroke="#282828" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M556 60 C568 54 584 56 600 48" stroke="#282828" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+  <path d="M512 74 C522 68 534 66 546 68" stroke="#151515" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+
+  <use xlink:href="#blossom" href="#blossom" transform="translate(600 48) rotate(-18) scale(1.05)"/>
+  <use xlink:href="#blossom" href="#blossom" transform="translate(556 60) rotate(14) scale(0.95)"/>
+  <use xlink:href="#blossom" href="#blossom" transform="translate(488 92) rotate(24) scale(1.1)"/>
+  <use xlink:href="#blossom" href="#blossom" transform="translate(530 74) rotate(-40) scale(0.8)"/>
+
+  <use xlink:href="#petal" href="#petal" transform="translate(452 152) rotate(28)"/>
+  <use xlink:href="#petal" href="#petal" transform="translate(580 136) rotate(-24)"/>
+  <use xlink:href="#petal" href="#petal" transform="translate(508 140) rotate(60) scale(0.8)"/>
+
+  <use xlink:href="#sparkle" href="#sparkle" transform="translate(430 44) scale(0.7)"/>
+  <use xlink:href="#sparkle" href="#sparkle" transform="translate(612 156) scale(0.55)"/>
+  <use xlink:href="#sparkle" href="#sparkle" transform="translate(470 118) scale(0.45)"/>
+  <circle cx="416" cy="64" r="1.1" fill="#FFFFFF" opacity="0.75"/>
+  <circle cx="598" cy="150" r="1" fill="#FFFFFF" opacity="0.6"/>
+
+  <rect x="40" y="28" width="96" height="22" rx="6" fill="#151515" stroke="#282828"/>
+  <text x="50" y="43" font-family="'Segoe UI', 'Malgun Gothic', sans-serif" font-size="10.5" letter-spacing="1.4" fill="#D8D8D8">4SH / 계획</text>
+  <text x="40" y="112" font-family="Georgia, 'Times New Roman', serif" font-size="42" fill="#F2F0EC">GuildHQ</text>
+  <text x="40" y="142" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" letter-spacing="2.2" fill="#AFAFAF">TICKETS · MODERATION · ACTIVITY · DASHBOARD</text>
+  <text x="40" y="192" font-family="Consolas, 'Courier New', monospace" font-size="9.5" letter-spacing="1.8" fill="#AFAFAF" opacity="0.75">PLANNED · NOT BUILT YET</text>
 </svg>

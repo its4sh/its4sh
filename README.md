@@ -1,6 +1,6 @@
 ![4sh — a monochrome midnight banner](./assets/banner.jpg)
 
-**☾ 4sh · aspiring developer.** I learn by building — small Python programs first, then web applications, dashboards, Discord bots and desktop tools. Most of what I know comes from practice projects, documentation, and rebuilding whatever broke the night before.
+**4sh · aspiring developer.** I learn by building — small Python programs first, then web applications, dashboards, Discord bots and desktop tools. Most of what I know comes from practice projects, documentation, and rebuilding whatever broke the night before.
 
 I'm a future Computer Science student, not a professional — just someone working steadily toward software that people actually find useful.
 
@@ -8,7 +8,7 @@ I'm a future Computer Science student, not a professional — just someone worki
   <img src="./assets/night/divider.svg" alt="" width="1200">
 </div>
 
-### ☾ 4sh · Building
+### 4sh · Building
 
 <p align="center">
   <img src="./assets/night/cards/expense-tracker.svg" alt="Expense Tracker — a local Python practice project, not published" width="420">
@@ -17,7 +17,7 @@ I'm a future Computer Science student, not a professional — just someone worki
 
 <p align="center"><sub>No public repositories yet — these cards describe learning work, not shipped products.</sub></p>
 
-### ☾ 4sh · Learning
+### 4sh · Learning
 
 - **Python and programming fundamentals** — syntax, data structures, and reasoning clearly about problems.
 - **Web applications and dashboards** — interfaces that make information easy to read at a glance.
@@ -30,13 +30,13 @@ I'm a future Computer Science student, not a professional — just someone worki
   <img src="./assets/night/divider.svg" alt="" width="1200">
 </div>
 
-### ☾ 4sh · Setup
+### 4sh · Setup
 
 I work in **Python**, with **Git** and **GitHub** for every project. Learning happens in documentation, small experiments, and fixing what I broke the night before.
 
 `Python` · `Git` · `GitHub` · `Markdown`
 
-### ☾ 4sh · After Hours
+### 4sh · After Hours
 
 <div align="center">
 

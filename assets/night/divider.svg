@@ -1,7 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="28" viewBox="0 0 1200 28" role="img" aria-label="Decorative divider">
-  <line x1="0" y1="14" x2="552" y2="14" stroke="#AFAFAF" stroke-opacity="0.25"/>
-  <line x1="648" y1="14" x2="1200" y2="14" stroke="#AFAFAF" stroke-opacity="0.25"/>
-  <path d="M558 14 l5 -5 5 5 -5 5 z" fill="#AFAFAF" fill-opacity="0.35"/>
-  <path d="M632 14 l5 -5 5 5 -5 5 z" fill="#AFAFAF" fill-opacity="0.35"/>
-  <path d="M605 3 a11 11 0 1 0 0 22 a22 22 0 0 1 0 -22 z" fill="#AFAFAF" fill-opacity="0.65"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="36" viewBox="0 0 1200 36" role="img" aria-label="Decorative divider">
+  <defs>
+    <g id="blossom">
+      <g fill="#FFFFFF" stroke="#D8D8D8" stroke-opacity="0.7" stroke-width="0.6">
+        <ellipse cx="0" cy="-8.5" rx="4.6" ry="8"/>
+        <ellipse cx="0" cy="-8.5" rx="4.6" ry="8" transform="rotate(72)"/>
+        <ellipse cx="0" cy="-8.5" rx="4.6" ry="8" transform="rotate(144)"/>
+        <ellipse cx="0" cy="-8.5" rx="4.6" ry="8" transform="rotate(216)"/>
+        <ellipse cx="0" cy="-8.5" rx="4.6" ry="8" transform="rotate(288)"/>
+      </g>
+      <circle r="2" fill="#AFAFAF"/>
+      <g fill="#D8D8D8">
+        <circle cx="0" cy="-4.5" r="0.8"/>
+        <circle cx="4.3" cy="-1.4" r="0.8"/>
+        <circle cx="2.6" cy="3.6" r="0.8"/>
+        <circle cx="-2.6" cy="3.6" r="0.8"/>
+        <circle cx="-4.3" cy="-1.4" r="0.8"/>
+      </g>
+    </g>
+  </defs>
+  <rect width="1200" height="36" fill="#000000"/>
+  <rect x="6.5" y="6.5" width="1187" height="23" rx="8" fill="#080808" stroke="#AFAFAF" stroke-opacity="0.35"/>
+  <line x1="70" y1="18" x2="520" y2="18" stroke="#AFAFAF" stroke-opacity="0.3"/>
+  <line x1="680" y1="18" x2="1130" y2="18" stroke="#AFAFAF" stroke-opacity="0.3"/>
+  <path d="M534 18 l4.5 -4.5 4.5 4.5 -4.5 4.5 z" fill="#AFAFAF" fill-opacity="0.4"/>
+  <path d="M657 18 l4.5 -4.5 4.5 4.5 -4.5 4.5 z" fill="#AFAFAF" fill-opacity="0.4"/>
+  <use xlink:href="#blossom" href="#blossom" transform="translate(600 18) rotate(-12) scale(0.72)"/>
 </svg>
