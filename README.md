@@ -5,7 +5,7 @@
 I'm a future Computer Science student, not a professional — just someone working steadily toward software that people actually find useful.
 
 <div align="center">
-  <img src="./assets/night/divider.png" alt="" width="1200">
+  <img src="./assets/night/divider.svg" alt="" width="1200">
 </div>
 
 ### 4sh · Building
@@ -27,7 +27,7 @@ I'm a future Computer Science student, not a professional — just someone worki
 - **Software engineering** — structure, version control, and the habits that keep a project maintainable.
 
 <div align="center">
-  <img src="./assets/night/divider.png" alt="" width="1200">
+  <img src="./assets/night/divider.svg" alt="" width="1200">
 </div>
 
 ### 4sh · Setup
@@ -48,6 +48,15 @@ I work in **Python**, with **Git** and **GitHub** for every project. Learning ha
 
 <sub>Pac-Man plays across my real contribution calendar, regenerated daily by a scheduled workflow in this repository.<br>
 The animation visualises existing activity — it doesn't create any.</sub>
+
+</div>
+
+<div align="center">
+
+  <img src="./assets/night/dragon.svg" alt="A decorative silver dragon drifting through the night, chasing falling sakura petals" width="1200">
+
+  <sub>밤하늘의 용 — a silver dragon that follows the falling blossoms, drawn as a hand-animated SVG.<br>
+  Pure decoration: not a game, not data.</sub>
 
 </div>
 
