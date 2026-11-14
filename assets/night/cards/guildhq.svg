@@ -4,66 +4,99 @@
   <desc id="card-desc">A planned Discord server management platform with tickets, moderation, activity statistics and a web dashboard.</desc>
   <defs>
     <g id="blossom">
-      <g fill="#FFFFFF" stroke="#D8D8D8" stroke-opacity="0.7" stroke-width="0.6">
-        <ellipse cx="0" cy="-8.5" rx="4.6" ry="8"/>
-        <ellipse cx="0" cy="-8.5" rx="4.6" ry="8" transform="rotate(72)"/>
-        <ellipse cx="0" cy="-8.5" rx="4.6" ry="8" transform="rotate(144)"/>
-        <ellipse cx="0" cy="-8.5" rx="4.6" ry="8" transform="rotate(216)"/>
-        <ellipse cx="0" cy="-8.5" rx="4.6" ry="8" transform="rotate(288)"/>
+      <g fill="#FFFFFF" stroke="#AFAFAF" stroke-opacity="0.55" stroke-width="0.7">
+        <ellipse cx="0" cy="-9" rx="4.8" ry="8.6"/>
+        <ellipse cx="0" cy="-9" rx="4.8" ry="8.6" transform="rotate(72)"/>
+        <ellipse cx="0" cy="-9" rx="4.8" ry="8.6" transform="rotate(144)"/>
+        <ellipse cx="0" cy="-9" rx="4.8" ry="8.6" transform="rotate(216)"/>
+        <ellipse cx="0" cy="-9" rx="4.8" ry="8.6" transform="rotate(288)"/>
       </g>
-      <circle r="2" fill="#AFAFAF"/>
-      <g fill="#D8D8D8">
-        <circle cx="0" cy="-4.5" r="0.8"/>
-        <circle cx="4.3" cy="-1.4" r="0.8"/>
-        <circle cx="2.6" cy="3.6" r="0.8"/>
-        <circle cx="-2.6" cy="3.6" r="0.8"/>
-        <circle cx="-4.3" cy="-1.4" r="0.8"/>
+      <g fill="#F2F0EC" opacity="0.55">
+        <ellipse cx="0" cy="-5.4" rx="2.2" ry="3.8"/>
+        <ellipse cx="0" cy="-5.4" rx="2.2" ry="3.8" transform="rotate(144)"/>
+        <ellipse cx="0" cy="-5.4" rx="2.2" ry="3.8" transform="rotate(288)"/>
+      </g>
+      <g stroke="#AFAFAF" stroke-width="0.55" stroke-opacity="0.8">
+        <line x1="0" y1="0" x2="0" y2="-4.4"/>
+        <line x1="0" y1="0" x2="4.2" y2="-1.3"/>
+        <line x1="0" y1="0" x2="2.6" y2="3.4"/>
+        <line x1="0" y1="0" x2="-2.6" y2="3.4"/>
+        <line x1="0" y1="0" x2="-4.2" y2="-1.3"/>
+      </g>
+      <g fill="#AFAFAF">
+        <circle cx="0" cy="-4.8" r="0.75"/>
+        <circle cx="4.5" cy="-1.4" r="0.75"/>
+        <circle cx="2.8" cy="3.7" r="0.75"/>
+        <circle cx="-2.8" cy="3.7" r="0.75"/>
+        <circle cx="-4.5" cy="-1.4" r="0.75"/>
       </g>
     </g>
     <g id="sparkle">
-      <path d="M0 -4 L0.9 -0.9 L4 0 L0.9 0.9 L0 4 L-0.9 0.9 L-4 0 L-0.9 -0.9 Z" fill="#FFFFFF"/>
+      <path d="M0 -5 Q0.8 -0.8 5 0 Q0.8 0.8 0 5 Q-0.8 0.8 -5 0 Q-0.8 -0.8 0 -5 Z" fill="#FFFFFF"/>
     </g>
-    <ellipse id="petal" rx="3.2" ry="5.2" fill="#FFFFFF" opacity="0.85"/>
+    <ellipse id="petal" rx="3" ry="5" fill="#FFFFFF" opacity="0.9"/>
+    <radialGradient id="haze" cx="50%" cy="100%" r="70%">
+      <stop offset="0%" stop-color="#AFAFAF" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#AFAFAF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow">
+      <stop offset="0%" stop-color="#D8D8D8" stop-opacity="0.12"/>
+      <stop offset="55%" stop-color="#D8D8D8" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#D8D8D8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="fog">
+      <stop offset="0%" stop-color="#D8D8D8" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#D8D8D8" stop-opacity="0"/>
+    </radialGradient>
   </defs>
 
   <rect width="640" height="220" fill="#000000"/>
-  <rect x="8.5" y="8.5" width="623" height="203" rx="12" fill="#080808" stroke="#AFAFAF" stroke-opacity="0.42"/>
+  <rect x="8.5" y="8.5" width="623" height="203" rx="12" fill="#080808" stroke="#AFAFAF" stroke-opacity="0.55"/>
+  <rect x="9" y="120" width="622" height="91" rx="10" fill="url(#haze)"/>
 
-  <circle cx="552" cy="96" r="52" fill="#D8D8D8" opacity="0.04"/>
-  <circle cx="552" cy="96" r="38" fill="#D8D8D8" opacity="0.06"/>
-  <circle cx="552" cy="96" r="27" fill="#D8D8D8"/>
-  <circle cx="543" cy="87" r="21" fill="#F2F0EC" opacity="0.35"/>
-  <circle cx="560" cy="103" r="5.5" fill="#AFAFAF" opacity="0.35"/>
-  <circle cx="547" cy="109" r="3.2" fill="#AFAFAF" opacity="0.3"/>
-  <circle cx="562" cy="88" r="2.4" fill="#AFAFAF" opacity="0.3"/>
+  <!-- moon (full, banner-like) -->
+  <circle cx="522" cy="112" r="95" fill="url(#glow)"/>
+  <circle cx="522" cy="112" r="42" fill="#D8D8D8"/>
+  <circle cx="514" cy="104" r="33" fill="#F2F0EC" opacity="0.35"/>
+  <g fill="#AFAFAF">
+    <circle cx="509" cy="120" r="6" opacity="0.35"/>
+    <circle cx="531" cy="103" r="4.5" opacity="0.3"/>
+    <circle cx="538" cy="124" r="3.5" opacity="0.3"/>
+    <circle cx="517" cy="93" r="3" opacity="0.3"/>
+    <circle cx="529" cy="133" r="2.5" opacity="0.35"/>
+    <circle cx="546" cy="112" r="2.5" opacity="0.3"/>
+  </g>
 
-  <path d="M352 212 L412 162 L464 196 L518 144 L580 200 L631 166 L631 212 L352 212 Z" fill="#151515"/>
-  <path d="M300 212 L356 186 L404 206 L456 176 L524 212 Z" fill="#080808" stroke="#282828" stroke-width="1"/>
-  <line x1="360" y1="204" x2="631" y2="204" stroke="#AFAFAF" stroke-opacity="0.07" stroke-width="4"/>
-  <line x1="420" y1="208" x2="631" y2="208" stroke="#AFAFAF" stroke-opacity="0.05" stroke-width="3"/>
+  <!-- mountains + mist -->
+  <ellipse cx="522" cy="170" rx="115" ry="28" fill="url(#fog)"/>
+  <path d="M300 212 L366 156 L426 194 L482 146 L550 198 L598 168 L631 186 L631 212 Z" fill="#151515"/>
+  <path d="M330 212 L390 180 L444 202 L502 168 L568 206 L631 182 L631 212 Z" fill="#080808" stroke="#282828" stroke-width="1"/>
+  <line x1="320" y1="198" x2="631" y2="198" stroke="#AFAFAF" stroke-opacity="0.07" stroke-width="5"/>
+  <line x1="340" y1="207" x2="631" y2="207" stroke="#AFAFAF" stroke-opacity="0.06" stroke-width="3"/>
 
-  <path d="M631 40 C600 50 578 46 556 60 C532 74 512 72 488 92 C476 102 466 108 458 118" stroke="#282828" stroke-width="4" fill="none" stroke-linecap="round"/>
-  <path d="M556 60 C568 54 584 56 600 48" stroke="#282828" stroke-width="2.4" fill="none" stroke-linecap="round"/>
-  <path d="M512 74 C522 68 534 66 546 68" stroke="#151515" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <!-- cherry branch -->
+  <path d="M631 14 C596 26 570 24 546 40 C518 58 496 56 466 78 C452 88 442 94 434 102" stroke="#282828" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M546 40 C558 34 574 36 590 28" stroke="#282828" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+  <path d="M496 58 C506 52 518 50 528 52" stroke="#151515" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <use xlink:href="#blossom" href="#blossom" transform="translate(590 28) rotate(-18) scale(1.05)"/>
+  <use xlink:href="#blossom" href="#blossom" transform="translate(546 40) rotate(14) scale(0.95)"/>
+  <use xlink:href="#blossom" href="#blossom" transform="translate(466 78) rotate(24) scale(1.1)"/>
+  <use xlink:href="#blossom" href="#blossom" transform="translate(528 52) rotate(-40) scale(0.8)"/>
+  <use xlink:href="#petal" href="#petal" transform="translate(444 152) rotate(28)"/>
+  <use xlink:href="#petal" href="#petal" transform="translate(566 128) rotate(-24)"/>
+  <use xlink:href="#petal" href="#petal" transform="translate(500 140) rotate(60) scale(0.8)"/>
+  <use xlink:href="#sparkle" href="#sparkle" transform="translate(430 38) scale(0.7)"/>
+  <use xlink:href="#sparkle" href="#sparkle" transform="translate(606 132) scale(0.55)"/>
+  <use xlink:href="#sparkle" href="#sparkle" transform="translate(468 116) scale(0.45)"/>
+  <circle cx="414" cy="56" r="1.1" fill="#FFFFFF" opacity="0.75"/>
+  <circle cx="600" cy="100" r="1" fill="#FFFFFF" opacity="0.6"/>
 
-  <use xlink:href="#blossom" href="#blossom" transform="translate(600 48) rotate(-18) scale(1.05)"/>
-  <use xlink:href="#blossom" href="#blossom" transform="translate(556 60) rotate(14) scale(0.95)"/>
-  <use xlink:href="#blossom" href="#blossom" transform="translate(488 92) rotate(24) scale(1.1)"/>
-  <use xlink:href="#blossom" href="#blossom" transform="translate(530 74) rotate(-40) scale(0.8)"/>
+  <text x="621" y="160" text-anchor="middle" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11" fill="#AFAFAF" opacity="0.75">달</text>
+  <text x="621" y="180" text-anchor="middle" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11" fill="#AFAFAF" opacity="0.75">빛</text>
 
-  <use xlink:href="#petal" href="#petal" transform="translate(452 152) rotate(28)"/>
-  <use xlink:href="#petal" href="#petal" transform="translate(580 136) rotate(-24)"/>
-  <use xlink:href="#petal" href="#petal" transform="translate(508 140) rotate(60) scale(0.8)"/>
-
-  <use xlink:href="#sparkle" href="#sparkle" transform="translate(430 44) scale(0.7)"/>
-  <use xlink:href="#sparkle" href="#sparkle" transform="translate(612 156) scale(0.55)"/>
-  <use xlink:href="#sparkle" href="#sparkle" transform="translate(470 118) scale(0.45)"/>
-  <circle cx="416" cy="64" r="1.1" fill="#FFFFFF" opacity="0.75"/>
-  <circle cx="598" cy="150" r="1" fill="#FFFFFF" opacity="0.6"/>
-
-  <rect x="40" y="28" width="96" height="22" rx="6" fill="#151515" stroke="#282828"/>
-  <text x="50" y="43" font-family="'Segoe UI', 'Malgun Gothic', sans-serif" font-size="10.5" letter-spacing="1.4" fill="#D8D8D8">4SH / 계획</text>
-  <text x="40" y="112" font-family="Georgia, 'Times New Roman', serif" font-size="42" fill="#F2F0EC">GuildHQ</text>
+  <rect x="40" y="26" width="106" height="24" rx="7" fill="#151515" stroke="#282828"/>
+  <text x="50" y="42" font-family="'Segoe UI', 'Malgun Gothic', sans-serif" font-size="10.5" letter-spacing="1" fill="#D8D8D8">its4sh / 계획</text>
+  <text x="40" y="112" font-family="Georgia, 'Times New Roman', serif" font-size="40" fill="#F2F0EC">GuildHQ</text>
   <text x="40" y="142" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" letter-spacing="2.2" fill="#AFAFAF">TICKETS · MODERATION · ACTIVITY · DASHBOARD</text>
   <text x="40" y="192" font-family="Consolas, 'Courier New', monospace" font-size="9.5" letter-spacing="1.8" fill="#AFAFAF" opacity="0.75">PLANNED · NOT BUILT YET</text>
 </svg>
