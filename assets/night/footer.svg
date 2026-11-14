@@ -3,48 +3,61 @@
   <title id="footer-title">its4sh — build at night, learn by day</title>
   <defs>
     <g id="blossom">
-      <g fill="#FFFFFF" stroke="#AFAFAF" stroke-opacity="0.55" stroke-width="0.7">
-        <ellipse cx="0" cy="-9" rx="4.8" ry="8.6"/>
-        <ellipse cx="0" cy="-9" rx="4.8" ry="8.6" transform="rotate(72)"/>
-        <ellipse cx="0" cy="-9" rx="4.8" ry="8.6" transform="rotate(144)"/>
-        <ellipse cx="0" cy="-9" rx="4.8" ry="8.6" transform="rotate(216)"/>
-        <ellipse cx="0" cy="-9" rx="4.8" ry="8.6" transform="rotate(288)"/>
+      <g fill="#FFFFFF" stroke="#AFAFAF" stroke-opacity="0.85" stroke-width="0.9">
+        <ellipse cx="0" cy="-10.5" rx="5.6" ry="10.5"/>
+        <ellipse cx="0" cy="-10.5" rx="5.6" ry="10.5" transform="rotate(72)"/>
+        <ellipse cx="0" cy="-10.5" rx="5.6" ry="10.5" transform="rotate(144)"/>
+        <ellipse cx="0" cy="-10.5" rx="5.6" ry="10.5" transform="rotate(216)"/>
+        <ellipse cx="0" cy="-10.5" rx="5.6" ry="10.5" transform="rotate(288)"/>
       </g>
-      <g fill="#F2F0EC" opacity="0.55">
-        <ellipse cx="0" cy="-5.4" rx="2.2" ry="3.8"/>
-        <ellipse cx="0" cy="-5.4" rx="2.2" ry="3.8" transform="rotate(144)"/>
-        <ellipse cx="0" cy="-5.4" rx="2.2" ry="3.8" transform="rotate(288)"/>
+      <g stroke="#AFAFAF" stroke-opacity="0.4" stroke-width="0.55">
+        <line x1="0" y1="-4" x2="0" y2="-17"/>
+        <line x1="0" y1="-4" x2="0" y2="-17" transform="rotate(72)"/>
+        <line x1="0" y1="-4" x2="0" y2="-17" transform="rotate(144)"/>
+        <line x1="0" y1="-4" x2="0" y2="-17" transform="rotate(216)"/>
+        <line x1="0" y1="-4" x2="0" y2="-17" transform="rotate(288)"/>
       </g>
-      <g stroke="#AFAFAF" stroke-width="0.55" stroke-opacity="0.8">
-        <line x1="0" y1="0" x2="0" y2="-4.4"/>
-        <line x1="0" y1="0" x2="4.2" y2="-1.3"/>
-        <line x1="0" y1="0" x2="2.6" y2="3.4"/>
-        <line x1="0" y1="0" x2="-2.6" y2="3.4"/>
-        <line x1="0" y1="0" x2="-4.2" y2="-1.3"/>
+      <g stroke="#AFAFAF" stroke-width="0.7" stroke-opacity="0.9">
+        <line x1="0" y1="0" x2="0" y2="-6.5"/>
+        <line x1="0" y1="0" x2="6.2" y2="-1.9"/>
+        <line x1="0" y1="0" x2="3.8" y2="5.3"/>
+        <line x1="0" y1="0" x2="-3.8" y2="5.3"/>
+        <line x1="0" y1="0" x2="-6.2" y2="-1.9"/>
       </g>
       <g fill="#AFAFAF">
-        <circle cx="0" cy="-4.8" r="0.75"/>
-        <circle cx="4.5" cy="-1.4" r="0.75"/>
-        <circle cx="2.8" cy="3.7" r="0.75"/>
-        <circle cx="-2.8" cy="3.7" r="0.75"/>
-        <circle cx="-4.5" cy="-1.4" r="0.75"/>
+        <circle cx="0" cy="-7" r="0.8"/>
+        <circle cx="6.5" cy="-2" r="0.8"/>
+        <circle cx="4" cy="5.6" r="0.8"/>
+        <circle cx="-4" cy="5.6" r="0.8"/>
+        <circle cx="-6.5" cy="-2" r="0.8"/>
+      </g>
+    </g>
+    <g id="cluster">
+      <use xlink:href="#blossom" href="#blossom" transform="rotate(8)"/>
+      <use xlink:href="#blossom" href="#blossom" transform="translate(19 -10) rotate(-28) scale(0.82)"/>
+      <use xlink:href="#blossom" href="#blossom" transform="translate(-17 -12) rotate(40) scale(0.88)"/>
+      <use xlink:href="#blossom" href="#blossom" transform="translate(6 -26) rotate(70) scale(0.62)"/>
+      <use xlink:href="#blossom" href="#blossom" transform="translate(-28 5) rotate(-55) scale(0.55)"/>
+      <g fill="#FFFFFF" stroke="#AFAFAF" stroke-opacity="0.85" stroke-width="0.8">
+        <circle cx="34" cy="-18" r="3.2"/>
+        <circle cx="-38" cy="-4" r="2.8"/>
       </g>
     </g>
     <g id="sparkle">
       <path d="M0 -5 Q0.8 -0.8 5 0 Q0.8 0.8 0 5 Q-0.8 0.8 -5 0 Q-0.8 -0.8 0 -5 Z" fill="#FFFFFF"/>
     </g>
-    <ellipse id="petal" rx="3" ry="5" fill="#FFFFFF" opacity="0.9"/>
+    <ellipse id="petal" rx="4" ry="6.5" fill="#FFFFFF" stroke="#AFAFAF" stroke-opacity="0.6" stroke-width="0.7" opacity="0.95"/>
     <radialGradient id="haze" cx="50%" cy="100%" r="70%">
       <stop offset="0%" stop-color="#AFAFAF" stop-opacity="0.12"/>
       <stop offset="100%" stop-color="#AFAFAF" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="glow">
-      <stop offset="0%" stop-color="#D8D8D8" stop-opacity="0.12"/>
-      <stop offset="55%" stop-color="#D8D8D8" stop-opacity="0.06"/>
+      <stop offset="0%" stop-color="#D8D8D8" stop-opacity="0.14"/>
+      <stop offset="55%" stop-color="#D8D8D8" stop-opacity="0.07"/>
       <stop offset="100%" stop-color="#D8D8D8" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="fog">
-      <stop offset="0%" stop-color="#D8D8D8" stop-opacity="0.07"/>
+      <stop offset="0%" stop-color="#D8D8D8" stop-opacity="0.09"/>
       <stop offset="100%" stop-color="#D8D8D8" stop-opacity="0"/>
     </radialGradient>
   </defs>
@@ -53,38 +66,39 @@
   <rect x="8.5" y="8.5" width="1183" height="143" rx="12" fill="#080808" stroke="#AFAFAF" stroke-opacity="0.55"/>
   <rect x="9" y="100" width="1182" height="51" rx="10" fill="url(#haze)"/>
 
-  <!-- moon -->
-  <circle cx="1046" cy="56" r="110" fill="url(#glow)"/>
-  <circle cx="1046" cy="56" r="30" fill="#D8D8D8"/>
-  <circle cx="1040" cy="50" r="23" fill="#F2F0EC" opacity="0.35"/>
+  <!-- moon, tucked behind the branch -->
+  <circle cx="1052" cy="58" r="115" fill="url(#glow)"/>
+  <circle cx="1052" cy="58" r="36" fill="#D8D8D8"/>
+  <circle cx="1045" cy="51" r="28" fill="#F2F0EC" opacity="0.4"/>
   <g fill="#AFAFAF">
-    <circle cx="1038" cy="64" r="4.5" opacity="0.35"/>
-    <circle cx="1056" cy="50" r="3.5" opacity="0.3"/>
-    <circle cx="1062" cy="64" r="2.5" opacity="0.3"/>
-    <circle cx="1044" cy="42" r="2.2" opacity="0.3"/>
-    <circle cx="1052" cy="72" r="2" opacity="0.35"/>
-    <circle cx="1068" cy="56" r="2" opacity="0.3"/>
+    <circle cx="1041" cy="66" r="5" opacity="0.35"/>
+    <circle cx="1062" cy="50" r="4" opacity="0.3"/>
+    <circle cx="1068" cy="66" r="3" opacity="0.3"/>
+    <circle cx="1047" cy="38" r="2.6" opacity="0.3"/>
+    <circle cx="1057" cy="74" r="2.2" opacity="0.35"/>
+    <circle cx="1076" cy="58" r="2.2" opacity="0.3"/>
   </g>
 
-  <!-- mountains + mist -->
-  <ellipse cx="1046" cy="112" rx="160" ry="30" fill="url(#fog)"/>
-  <path d="M8 152 L92 116 L172 138 L262 104 L352 150 L432 122 L512 146 L596 132 L676 148 L756 118 L836 142 L916 112 L996 138 L1076 116 L1160 140 L1192 126 L1192 152 L8 152 Z" fill="#151515"/>
-  <path d="M8 152 L96 130 L188 146 L288 120 L388 150 L488 128 L588 148 L688 126 L788 150 L888 124 L988 148 L1088 126 L1188 148 L1192 152 Z" fill="#080808" stroke="#282828" stroke-width="1"/>
-  <line x1="8" y1="146" x2="1192" y2="146" stroke="#AFAFAF" stroke-opacity="0.06" stroke-width="4"/>
-  <line x1="40" y1="150" x2="1160" y2="150" stroke="#AFAFAF" stroke-opacity="0.05" stroke-width="2"/>
+  <!-- mountains + heavy mist -->
+  <ellipse cx="1052" cy="108" rx="170" ry="32" fill="url(#fog)"/>
+  <ellipse cx="600" cy="132" rx="260" ry="28" fill="url(#fog)" opacity="0.55"/>
+  <path d="M8 152 L92 112 L172 136 L262 100 L352 148 L432 118 L512 144 L596 128 L676 146 L756 112 L836 140 L916 106 L996 136 L1076 110 L1160 138 L1192 122 L1192 152 L8 152 Z" fill="#151515"/>
+  <path d="M8 152 L96 126 L188 144 L288 116 L388 148 L488 124 L588 146 L688 122 L788 148 L888 120 L988 146 L1088 122 L1188 146 L1192 152 Z" fill="#080808" stroke="#282828" stroke-width="1"/>
+  <line x1="8" y1="144" x2="1192" y2="144" stroke="#AFAFAF" stroke-opacity="0.08" stroke-width="5"/>
+  <line x1="40" y1="150" x2="1160" y2="150" stroke="#AFAFAF" stroke-opacity="0.06" stroke-width="3"/>
 
-  <!-- cherry branch -->
-  <path d="M1199 14 C1160 26 1134 24 1108 40 C1078 58 1050 56 1016 74 C994 86 976 92 960 100" stroke="#282828" stroke-width="4" fill="none" stroke-linecap="round"/>
-  <path d="M1108 40 C1120 34 1136 36 1152 28" stroke="#282828" stroke-width="2.4" fill="none" stroke-linecap="round"/>
-  <path d="M1050 58 C1060 52 1074 50 1086 52" stroke="#151515" stroke-width="1.8" fill="none" stroke-linecap="round"/>
-  <use xlink:href="#blossom" href="#blossom" transform="translate(1152 28) rotate(-18) scale(1.05)"/>
-  <use xlink:href="#blossom" href="#blossom" transform="translate(1108 40) rotate(14) scale(0.95)"/>
-  <use xlink:href="#blossom" href="#blossom" transform="translate(1016 74) rotate(24) scale(1.1)"/>
-  <use xlink:href="#blossom" href="#blossom" transform="translate(1086 52) rotate(-40) scale(0.8)"/>
-  <use xlink:href="#blossom" href="#blossom" transform="translate(962 98) rotate(-30) scale(0.9)"/>
-  <use xlink:href="#petal" href="#petal" transform="translate(900 128) rotate(28)"/>
-  <use xlink:href="#petal" href="#petal" transform="translate(948 110) rotate(-24)"/>
-  <use xlink:href="#petal" href="#petal" transform="translate(866 108) rotate(60) scale(0.8)"/>
+  <!-- thick cherry branch, dense clusters -->
+  <path d="M1199 12 C1164 22 1136 26 1108 42 C1072 62 1040 66 1006 88 C982 102 964 112 946 122" stroke="#282828" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M1108 42 C1120 34 1136 34 1152 28" stroke="#282828" stroke-width="2.8" fill="none" stroke-linecap="round"/>
+  <path d="M1040 66 C1050 58 1064 56 1076 52" stroke="#282828" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+  <path d="M986 104 C994 96 1006 94 1016 92" stroke="#151515" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <use xlink:href="#cluster" href="#cluster" transform="translate(1158 26) rotate(-12) scale(1)"/>
+  <use xlink:href="#cluster" href="#cluster" transform="translate(1084 54) rotate(18) scale(0.9)"/>
+  <use xlink:href="#cluster" href="#cluster" transform="translate(1008 90) rotate(30) scale(0.85)"/>
+  <use xlink:href="#blossom" href="#blossom" transform="translate(948 124) rotate(40) scale(0.75)"/>
+  <use xlink:href="#petal" href="#petal" transform="translate(906 140) rotate(25)"/>
+  <use xlink:href="#petal" href="#petal" transform="translate(966 100) rotate(-20) scale(0.9)"/>
+  <use xlink:href="#petal" href="#petal" transform="translate(866 118) rotate(60) scale(0.8)"/>
   <use xlink:href="#sparkle" href="#sparkle" transform="translate(150 44) scale(0.8)"/>
   <use xlink:href="#sparkle" href="#sparkle" transform="translate(320 70) scale(0.5)"/>
   <use xlink:href="#sparkle" href="#sparkle" transform="translate(90 104) scale(0.45)"/>
