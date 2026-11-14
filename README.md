@@ -5,14 +5,14 @@
 I'm a future Computer Science student, not a professional — just someone working steadily toward software that people actually find useful.
 
 <div align="center">
-  <img src="./assets/night/divider.svg" alt="" width="1200">
+  <img src="./assets/night/divider.png" alt="" width="1200">
 </div>
 
 ### 4sh · Building
 
 <p align="center">
-  <img src="./assets/night/cards/expense-tracker.svg" alt="Expense Tracker — a local Python practice project, not published" width="420">
-  <img src="./assets/night/cards/guildhq.svg" alt="GuildHQ — a planned Discord server management platform" width="420">
+  <img src="./assets/night/cards/expense-tracker.png" alt="Expense Tracker — a local Python practice project, not published" width="420">
+  <img src="./assets/night/cards/guildhq.png" alt="GuildHQ — a planned Discord server management platform" width="420">
 </p>
 
 <p align="center"><sub>No public repositories yet — these cards describe learning work, not shipped products.</sub></p>
@@ -27,7 +27,7 @@ I'm a future Computer Science student, not a professional — just someone worki
 - **Software engineering** — structure, version control, and the habits that keep a project maintainable.
 
 <div align="center">
-  <img src="./assets/night/divider.svg" alt="" width="1200">
+  <img src="./assets/night/divider.png" alt="" width="1200">
 </div>
 
 ### 4sh · Setup
@@ -54,5 +54,5 @@ The animation visualises existing activity — it doesn't create any.</sub>
 Nothing on this page is simulated, inflated, or backdated.
 
 <div align="center">
-  <img src="./assets/night/footer.svg" alt="4sh — build at night, learn by day" width="1200">
+  <img src="./assets/night/footer.png" alt="4sh — build at night, learn by day" width="1200">
 </div>
