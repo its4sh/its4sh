@@ -27,6 +27,9 @@ jobs:
       contents: write # required to push the generated SVGs to the output branch
 
     steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
       - name: Generate Pac-Man SVGs from real contribution data
         uses: abozanona/pacman-contribution-graph@v5.3.2
         with:
