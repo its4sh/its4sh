@@ -4,6 +4,8 @@
 
 I'm a future Computer Science student, not a professional — just someone working steadily toward software that people actually find useful.
 
+<p align="center"><sub>夜な夜な · building quietly, one night at a time.</sub></p>
+
 <div align="center">
   <img src="./assets/night/divider.svg" alt="" width="1200">
 </div>
@@ -14,7 +16,7 @@ I'm a future Computer Science student, not a professional — just someone worki
 |:---:|:---:|
 | <img src="./assets/night/cards/coming-soon.png" width="400" alt="Coming soon — a future project, not started yet"> | <img src="./assets/night/cards/coming-soon.png" width="400" alt="Coming soon — a future project, not started yet"> |
 
-<p align="center"><sub>No public repositories yet — these cards describe learning work, not shipped products.</sub></p>
+<p align="center"><sub>計画中 · No public repositories yet — these cards describe learning work, not shipped products.</sub></p>
 
 ### 4sh · Learning
 
@@ -37,12 +39,21 @@ I work in **Python**, with **Git** and **GitHub** for every project. Learning ha
 
 ### 4sh · After Hours
 
-| <img src="./assets/night/dragon-snake.svg" width="400" alt="밤하늘의 용 — an ink-drawn dragon gliding through a snake game, eating apples"> | <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/its4sh/its4sh/output/pacman-contribution-graph-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/its4sh/its4sh/output/pacman-contribution-graph.svg"><img alt="Pac-Man moving across 4sh's contribution graph" src="https://raw.githubusercontent.com/its4sh/its4sh/output/pacman-contribution-graph.svg" width="400"></picture> |
-|:---:|:---:|
-| <sub>밤하늘의 용 — a dragon that eats its way across a snake game, hand-animated as a single SVG.<br>Pure decoration: not playable, not data.</sub> | <sub>Pac-Man plays across my real contribution calendar, regenerated daily by a scheduled workflow.<br>The animation visualises existing activity — it doesn't create any.</sub> |
+<div align="center">
 
-Nothing on this page is simulated, inflated, or backdated.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/its4sh/its4sh/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/its4sh/its4sh/output/pacman-contribution-graph.svg">
+  <img alt="Pac-Man moving across 4sh's real contribution graph" src="https://raw.githubusercontent.com/its4sh/its4sh/output/pacman-contribution-graph.svg">
+</picture>
+
+<sub>本物の活動記録 · Pac-Man plays across my real contribution calendar, regenerated daily by a scheduled workflow.<br>
+The animation visualises existing activity — it doesn't create any.</sub>
+
+</div>
 
 <div align="center">
-  <img src="./assets/night/footer.png" alt="4sh — build at night, learn by day" width="1200">
+  <img src="./assets/night/divider.svg" alt="" width="1200">
 </div>
+
+<p align="center"><sub>月夜 · built at night, learned by day.</sub></p>
