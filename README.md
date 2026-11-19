@@ -12,26 +12,24 @@
 
 ### 4sh · Works in Progress
 
-| <img src="./assets/night/cards/guildhq.png" width="420" alt="GuildHQ — a planned Discord server management platform, in planning"> | <img src="./assets/night/cards/coming-soon.png" width="420" alt="Coming Soon — a future project, not started yet"> |
+| <img src="assets/night/cards/guildhq.png" width="400" alt="GuildHQ"> | <img src="assets/night/cards/coming-soon.png" width="400" alt="Coming Soon"> |
 |:---:|:---:|
-| <img src="./assets/night/cards/coming-soon.png" width="420" alt="Coming Soon — a future project, not started yet"> | <img src="./assets/night/cards/coming-soon.png" width="420" alt="Coming Soon — a future project, not started yet"> |
+| <img src="assets/night/cards/coming-soon-2.png" width="400" alt="Coming Soon"> | <img src="assets/night/cards/coming-soon-3.png" width="400" alt="Coming Soon"> |
 
 <p align="center"><sub>No public repositories yet — these cards describe learning work, not shipped products.</sub></p>
 
-### 4sh · Core Focus & Tech Stack
+### 4sh · Focus & Stack
 
 - **Python fundamentals** — syntax, data structures, and reasoning clearly about problems.
 - **Web dashboards** — interfaces that make information easy to read at a glance.
 - **Discord bots & APIs** — small automations that keep a community running.
-- **Developer tooling** — utilities that remove repetitive work.
-
-<p align="center"><sub><code>python</code> · <code>git</code> · <code>github</code> · <code>markdown</code></sub></p>
+- **Dotfiles & editor config** — cursor rules and a setup that follows me between machines.
 
 <div align="center">
   <img src="./assets/night/divider.svg" alt="" width="1200">
 </div>
 
-### 4sh · After Hours
+### 4sh · Activity
 
 <div align="center">
 
@@ -41,7 +39,7 @@
   <img alt="Pac-Man moving across 4sh's real contribution graph" src="https://raw.githubusercontent.com/its4sh/its4sh/output/pacman-contribution-graph.svg">
 </picture>
 
-<sub>Plays across my real contribution calendar, regenerated daily by a scheduled GitHub Action workflow.</sub>
+<sub>Plays across my real contribution calendar, regenerated daily.</sub>
 
 </div>
 
