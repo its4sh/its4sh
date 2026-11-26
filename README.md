@@ -13,10 +13,10 @@
 ### 4sh · Works in Progress
 
 <div align="center">
-  <img src="assets/night/cards/guildhq.png" width="48%" alt="GuildHQ">
-  <img src="assets/night/cards/coming-soon.png" width="48%" alt="Coming Soon"><br>
-  <img src="assets/night/cards/coming-soon-2.png" width="48%" alt="Coming Soon">
-  <img src="assets/night/cards/coming-soon-3.png" width="48%" alt="Coming Soon">
+  <img src="assets/night/cards/guildhq.jpg" width="48%" alt="GuildHQ">
+  <img src="assets/night/cards/coming-soon.jpg" width="48%" alt="Coming Soon"><br>
+  <img src="assets/night/cards/coming-soon-2.jpg" width="48%" alt="Coming Soon">
+  <img src="assets/night/cards/coming-soon-3.jpg" width="48%" alt="Coming Soon">
 </div>
 
 <p align="center"><sub>No public repositories yet — these cards describe learning work, not shipped products.</sub></p>
